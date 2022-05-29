@@ -1,0 +1,33 @@
+<%- include ('partials/header') %>
+<div class="bg-success p-4 bg-opacity-25">
+  <div class="email-section">
+    <h1>Soo... What do you think?</h1>
+  </div>
+</div>
+<form action="/email" method="post">
+  <div id="input-section">
+    <div class="input-group input-group-sm mb-3">
+      <label>Title</label>
+      <input class="form-control" type="text" name="textTitle" />
+    </div>
+    <div>
+      <label>Post</label>
+      <textarea
+        name="textBody"
+        id=""
+        cols="30"
+        rows="5"
+        class="form-control"
+      ></textarea>
+    </div>
+    <button
+      type="submit"
+      name="publish"
+      class="btn btn-primary btn-sm"
+      style="margin-top: 2.5rem"
+    >
+      Publish
+    </button>
+  </div>
+</form>
+<%- include ('partials/footer') %>

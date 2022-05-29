@@ -1,0 +1,99 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1a374d;
+  color: aliceblue;
+}
+
+h1 {
+  margin: 7%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.Main {
+  padding: 7%;
+}
+
+
+.MyPfp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 90%;
+}
+
+.navbar-collapse ~ ul{
+  margin: 15%;
+}
+
+.colored-section {
+  background-color: #b1d0e0;
+  color: rgb(177, 208, 224);
+}
+
+#info{
+  margin: 5%;
+}
+
+/* Header */
+
+.title-heading {
+  background-color: #b1d0e0;
+  text-align: left;
+  padding-left: 10%;
+}
+
+.nav-link {
+  font-size: larger;
+}
+
+/* about css */
+
+.about-section {
+  color: azure;
+}
+
+.bg-success{
+  --bs-bg-opacity: 1;
+  background-color: rgba(177, 208, 224) !important;
+}
+
+.abt-description {
+  margin: 10%;
+  padding-right: 10%;
+  width: 50%;
+}
+
+/* email css */
+
+#input-section {
+  margin: 5% 10%;
+}
+.email-section{
+  color: aliceblue;
+}
+label {
+  margin: 0 5px;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #b1d0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1a374d;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #102536;
+}
